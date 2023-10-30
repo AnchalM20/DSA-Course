@@ -44,6 +44,7 @@ public class TwoSum {
                     map.put(arr.get(i),map.get(arr.get(i)) - 2);
                 }
             }
+
             else {
                 if(map.containsKey(arr.get(i)) && map.containsKey(target-arr.get(i)) && map.get(target - arr.get(i))>0 && map.get(arr.get(i))>0)
                 {

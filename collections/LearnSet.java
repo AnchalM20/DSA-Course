@@ -16,6 +16,7 @@ public class LearnSet {
         set.add(20);
         set.add(20);
         set.add(15);
+        System.out.println(set.hashCode());
         System.out.println(set);
         set.remove(7);
         System.out.println(set);

@@ -1,4 +1,4 @@
-package com.array.Sorting;
+package com.Sorting;
 
 public class BubbleSort {
     public static void bubbleSort(int arr[],int n){

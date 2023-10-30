@@ -1,4 +1,4 @@
-package com.array;
+package com.array.bitwise;
 
 public class ShiftOperator {
     private void decimalToBinary(int n){

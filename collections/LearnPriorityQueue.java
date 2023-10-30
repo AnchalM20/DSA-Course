@@ -6,7 +6,7 @@ import java.util.Queue;
 
 public class LearnPriorityQueue {
     public static void main(String[] args) {
-        Queue<Integer> pq = new PriorityQueue<>(Comparator.reverseOrder()); //It works like a MinHeap(root is smallest)
+        Queue<Integer> pq = new PriorityQueue<>(); //It works like a MinHeap(root is smallest)
         pq.offer(10);
         pq.offer(20);
         pq.offer(30);

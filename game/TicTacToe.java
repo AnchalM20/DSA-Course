@@ -23,7 +23,8 @@ public class TicTacToe {
             int row = scanner.nextInt();
             int col = scanner.nextInt();
 
-            if (board[row][col] == ' ') {
+            if (board[row][col] == ' ')
+            {
                 board[row][col] = player; //place the element
                 gameOver = haveWon(board, player);
                 if (gameOver)
@@ -38,8 +39,8 @@ public class TicTacToe {
 //                    player='X';
 //                }
                     player = (player=='X')?'O':'X';
+                    }
             }
-        }
             else {
                 System.out.println("Invalid move. Try again!!");
             }

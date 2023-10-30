@@ -1,6 +1,10 @@
-package com.array.Sorting;
+package com.Sorting;
 import java.util.Arrays;
 
+
+//Divide: O(log n)
+//Conquer (Merge): O(n)
+//Summing these two together, you get a total time complexity of O(n log n).
 public class MergeSort {
     void mergeSort(int arr[],int i,int j){
       if(i<j) {

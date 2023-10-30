@@ -1,5 +1,4 @@
 package com.array;
-
 import java.util.*;
 
 public class ArrayBasic {
@@ -23,7 +22,7 @@ public class ArrayBasic {
       int temp=0;
        for (int i=0;i< arr.length;i++)
        {
-           temp=arr[i]^temp;       //X-OR operation to find unique(non-repeated)
+           temp=arr[i]^temp;       //X-OR operation to find unique(non-repeated) bcz a^a=0 of same number
        }
        return temp;
     }
@@ -33,8 +32,8 @@ public class ArrayBasic {
    private ArrayList<Integer> findDuplicate(int[] arr)
    {
         Map<Integer, Integer> mp = new HashMap<>();
-        // Traverse through array elements and
-        // count frequencies
+       // Traverse through array elements and
+       // count frequencies
        //(Element,frequency)
         for (int i = 0; i < arr.length; i++)
         {
@@ -56,6 +55,7 @@ public class ArrayBasic {
     }
 
 //--------------------- 4. count of Distinct Elements in an Array -------------------------
+    //You have a given an array with many duplicate elements
     private int findDistinct(int arr[])
     {
         Set<Integer> ans = new TreeSet<>();

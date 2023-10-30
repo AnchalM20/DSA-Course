@@ -1,5 +1,4 @@
-package com.array.Sorting;
-import java.util.Arrays;
+package com.Sorting;
 
 //Time complexity o(n^2)
 public class InsertionSort {

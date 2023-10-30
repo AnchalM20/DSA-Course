@@ -1,4 +1,4 @@
-package com.array.Sorting;
+package com.Sorting;
 
 public class QuickSort {
 
